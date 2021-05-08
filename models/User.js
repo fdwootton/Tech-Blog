@@ -16,7 +16,7 @@ User.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    userName: {
+    user_name: {
       type: DataTypes.STRING,
       allowNull: false,
       unique: true,
@@ -33,7 +33,7 @@ User.init(
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        len: [8], //password must be at least 8 characters long
+        len: [6], //password must be at least 6 characters long
       },
     },
   },
