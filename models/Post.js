@@ -29,10 +29,9 @@ Post.init(
   },
   {
     sequelize,
-    timestamps: false, //timestamp?
-    freezeTableName: true,
     underscored: true,
-    modelName: 'comment'
+    freezeTableName: true,
+    modelName: 'post'
   }
 );
 
