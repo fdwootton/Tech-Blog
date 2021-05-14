@@ -14,13 +14,12 @@
       <header class="jumbotron">
           <h1>Tech Blog</h1>
               <nav>
+                      {{#if logged_in}}
                       <a class="navbar-brand" href="/">Home</a>
-                      {{#if loggedIn}}
-
-                      {{else}}
                       <a class="navbar-brand" href="/dashboard">Dashboard</a>
                       <a class="navbar-brand" href="/" id="logout">Logout</a>
-                      <a class="navbar-brand" href="/login">Login</a>
+                      {{else}}
+                      <h5><a class="navbar-brand" href="/login">LOG-IN</a>to connect with like-minded techies</h5>
                       {{/if}}
               </nav>          
       </header>
