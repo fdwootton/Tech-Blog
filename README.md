@@ -3,7 +3,7 @@
   ## **Description**
   This application is a discussion platform that allows users to create, edit, and delete posts about tech related topics.
   
-  Click here to visit the deployed application on Heroku: [**Tech-Blog**](https://guarded-lowlands-56940.herokuapp.com/)
+  Click here to visit the deployed application on Heroku: [**Tech-Blog**]()
 
   ## **Table of Contents**
   - [Installation](#installation)
