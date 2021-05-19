@@ -3,7 +3,7 @@
   ## **Description**
   This application is a discussion platform that allows users to create, edit, and delete posts about tech related topics.
   
-  Click here to visit the deployed application on Heroku: [**Tech-Blog**]()
+  Click here to visit the deployed application on Heroku: [**Tech-Blog**](https://morning-cove-47133.herokuapp.com/)
 
   ## **Table of Contents**
   - [Installation](#installation)
